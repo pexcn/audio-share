@@ -19,7 +19,7 @@ jobs:
           distribution: "temurin"
           cache: gradle
 
-      - name: Create relese.jks
+      - name: Create release.jks
         run: mkdir ~/.android && echo "$release_jks" | base64 -d > ~/.android/release.jks
         env:
           release_jks: ${{ secrets.RELEASE_JKS }}

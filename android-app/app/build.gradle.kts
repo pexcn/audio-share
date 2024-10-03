@@ -33,7 +33,7 @@ android {
 
     defaultConfig {
         applicationId = "io.github.mkckr0.audio_share_app"
-        minSdk = 23
+        minSdk = 22
         targetSdk = 34
         versionCode = 1000
         versionName = "0.1.0"
